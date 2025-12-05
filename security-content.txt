@@ -1,0 +1,57 @@
+
+<h1>DroneLogbook.com Security & Compliance Overview</h1>
+At DroneLogbook.com, protecting your data is fundamental to our mission. We operate a comprehensive security program that governs our platform, infrastructure, and internal processes. This framework is designed to preserve the confidentiality, integrity, and availability of the systems and information our users rely on, while aligning with applicable legal, industry, and contractual obligations.
+We continuously evaluate and enhance our security posture through ongoing monitoring, independent assessments, and strict internal controls—ensuring that your operational and regulatory data remains safe at every stage.
+SOC 2 Type II Compliance
+DroneLogbook.com is SOC 2 Type II compliant. The SOC 2 Type II examination provides an in-depth review of how an organization manages and protects customer information over an extended period. It is widely recognized as a leading benchmark for security practices across cloud service providers in the United States.
+Achieving this certification demonstrates our dedication to maintaining strong internal controls and safeguarding all data processed on our platform. Our SOC 2 audit was conducted by an independent third-party firm, and a copy of the attestation report is available upon request for customers, partners, and approved prospects.
+AWS Best Practices & Infrastructure Security
+Our platform is hosted on Amazon Web Services (AWS), leveraging a highly resilient and secure cloud environment trusted globally. By building on AWS, DroneLogbook.com benefits from a combination of advanced physical protections, industry-leading infrastructure security, and robust cloud-native tools.
+
+<h2>Infrastructure Security</h2>
+
+• AWS data centers employ strict physical security measures, environmental controls, and continuous monitoring
+• Network segmentation uses VPCs, subnets, firewalls, and security groups to isolate and protect platform components
+• System uptime is supported through redundancy, load balancing, and high-availability architectures
+• Infrastructure is continuously monitored to identify potential threats or unusual activity
+
+<h2>Security Best Practices</h2>
+
+• IAM least-privilege access: All system access is tightly controlled and restricted to the minimum required permissions
+• Full encryption: Data at rest and in transit is encrypted using AWS-managed or platform-specific keys
+• Routine patching: Servers and managed services are kept up to date with current security patches
+• MFA for administrative access: Multi-factor authentication is required for elevated system privileges
+• Continuous logging: AWS CloudTrail, GuardDuty, and CloudWatch provide audit trails, threat detection, and operational insights
+• Automated backups: Versioned backups and disaster-recovery procedures protect data against loss
+
+Under the AWS shared responsibility model, AWS secures the cloud infrastructure, while DroneLogbook.com secures the data, configurations, and applications that run within it.
+
+<h2>Application & Customer Data Security</h2>
+DroneLogbook.com reinforces platform security through multiple layers of controls:
+
+• All communication with the platform is encrypted end-to-end
+• Customer data is always encrypted, whether stored or in transit
+• Permissions and access rights follow strict least-privilege principles
+• Independent penetration tests are conducted annually, supplemented by frequent internal testing
+• Credentials are protected using strong hashing and salting techniques and stored in isolated databases
+• Regular vulnerability scans, code reviews, and automated security checks are embedded in the development workflow
+• A documented and practiced Incident Response Plan guides our actions in the event of a security issue
+
+<h2>Application Monitoring & Audit Logs</h2>
+Every action performed within the DroneLogbook.com environment—such as configuration changes, flight record updates, or system events—is logged and stored in an encrypted, tenant-specific database.
+These audit logs are available through the platform’s monitoring features, giving customers full visibility into their environment. DroneLogbook.com does not access this information unless a customer explicitly grants permission.
+Internal Security & Governance
+Policies & Secure Development Practices
+
+• Our internal security policies define strict requirements for system usage, development, and data handling
+• Policies undergo scheduled reviews to ensure they reflect current standards and best practices
+• Our engineering team adheres to a structured Software Development Life Cycle (SDLC) that incorporates security at every stage
+• Developers receive specialized training on secure coding and follow rigorous peer-review processes
+
+<h2>Employee Screening & Access Controls</h2>
+To maintain trust and protect customer data, we implement strong personnel controls, including:
+
+• Background checks prior to employment
+• Multi-stage evaluations by senior team members
+• Confidentiality agreements for all employees
+• Ongoing security training and access reassessments
