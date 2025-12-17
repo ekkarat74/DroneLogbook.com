@@ -203,8 +203,12 @@
 
   <section class="readytouse">
     <h2 class="content-header">Ready to use DroneLogbook?</h2>
-    <p class="content-sub-header">Create a free account</p>
-    <p class="content-sub-header"><b>2 Months Free Trial For All New Users</b></p>
+    <p class="content-sub-header">Create a free account and experience how DroneLogbook 
+      can simplify your drone operations, fleet management, and compliance reporting. 
+      Every new user receives a <b>2-month free trial</b>, so you can run real missions through the 
+      system before committing. 
+      <a href="https://www.dronelogbook.com/hp/1/innovation.html" style="color: black;"><u>dronelogbook.com</u></a>
+    </p>
     <div>
       <ul class="ui-buttons ui-footer">
         <li>
@@ -224,12 +228,19 @@
       <div class="divider" style="margin-bottom: 20px;"></div>
 
       <div style="padding-left: 40px; padding-right: 10px; padding-top: 40px;">
-        <p class="appstore__desc">The DroneLogbook solution is based on a cloud infrastructure with secure data storage, online web application
-          accompanied by our mobile application for offline access and easy synchronization with your cloud based account.
-          In addition, the mobile app provides you with access to the latest airspace status updates, local weather and
-          solar index reading that might affect your operations.</p>
+        <p class="appstore__desc">The DroneLogbook solution is built on a modern cloud platform 
+          with a web application and companion mobile apps for iOS and Android, giving your 
+          team access in the office, in the field, and even offline. Mission data captured offline 
+          can be synced back to your cloud account when a connection is available. 
+          <a href="https://www.dronelogbook.com/hp/1/innovation.html" style="color: black;"><u>dronelogbook.com</u></a>
+        </p>
         <br />
-        <p class="appstore__desc">Another Android mobile application, <b>DLBSync</b>, simplifies import of your flights from major mobile drone flight control apps natively to your DroneLogbook account. This app can sync flights into DLB Sync from your flight control apps when offline or in poor mobile coverage, then upload flights to DroneLogbook account when you have mobile or WIFI coverage.</p>
+        <p class="appstore__desc">The mobile app provides at-a-glance access to <b></b>current airspace status, 
+          local weather, and solar-activity indices that may affect flight safety. Our additional Android 
+          app, DLBSync, simplifies importing flights from major mobile drone flight-control apps directly 
+          into your DroneLogbook account—even in low-coverage environments. DLBSync can collect logs in 
+          the background and upload them when Wi-Fi or mobile data is restored, reducing lost flight
+          records and manual export steps.</p>
       </div>
 
       <div style="display: flex; padding-left: 20px; padding-right: 20px; align-items: flex-end;">
