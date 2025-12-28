@@ -62,28 +62,25 @@
     }
   </script>
   <style>
-  /* จัดการ Container ให้เป็น Flex และขึ้นบรรทัดใหม่ได้ */
   .main-features .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
 
-  /* ตั้งค่าแต่ละคอลัมน์ให้มีความกว้าง 1/3 และยืดตัวให้สูงเท่ากัน */
   .feautures-columns {
     display: flex;
     margin-bottom: 30px;
     padding: 0 15px;
-    width: 33.333%; /* 3 คอลัมน์ต่อแถว */
+    width: 33.333%;
   }
 
-  /* ตกแต่งเนื้อหาภายในกล่อง */
   .icon-boxes__content {
-    background-color: transparent; /* หรือสีที่คุณต้องการ */
+    background-color: transparent;
     border: none;
     display: flex;
     flex-direction: column;
-    flex: 1; /* ทำให้ทุกกล่องในแถวเดียวกันสูงเท่ากัน */
+    flex: 1;
     padding: 10px;
   }
 
@@ -91,17 +88,16 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
-    min-height: 50px; /* ช่วยให้หัวข้อที่สั้น/ยาวดูสมดุลกัน */
+    min-height: 50px;
     line-height: 1.3;
   }
 
   .icon-boxes__content-text {
     font-size: 15px;
     line-height: 1.6;
-    color: #eee; /* ปรับสีตัวอักษรให้ขาวนวลตามภาพ */
+    color: #eee;
   }
 
-  /* สำหรับมือถือ ให้แสดง 1 คอลัมน์ */
   @media (max-width: 768px) {
     .feautures-columns {
       width: 100%;
@@ -188,28 +184,24 @@
           <div style="align-items: baseline; display: flex; justify-content: space-between; flex-wrap: wrap;">
             
             <div class="module-text" style="font-size: 16px; font-weight: 200; font-family: Roboto, sans-serif; color: #222;">
-              <br><b>Private Label</b>
-              <ul>
-                <li>• Customizable drone component lists (Motors, Propellers (CW, CCW), ESCs, etc.)</li>
-                <li>• Customizable equipment list (Camera’s, Gimbles, Lidar, Battery Chargers, Cases, etc...)</li>
-                <li>• (Optional) Automatically flag flights where user operated a drone with overdue inspection</li>
-                <li>• (Optional) Automatically move a drone into maintenance (non operational) if overdue for inspection</li>
-                <li>• (Optional) Automatically flag batteries after X flights (user-defined)</li>
-                <li>• (Optional) Flag user when components or drone hull is overdue, 10 percent or 20 percent before drone/parts become overdue for inspection/maintenance follow-up.</li>
-                <li>• And more than 20 other notifications...</li>
-              </ul>
+              <br><b>Private Label</b> 
+            	<li>Customizable drone component lists (Motors, Propellers (CW, CCW), ESCs, etc.)</li>
+            	<li>Customizable equipment list (Camera’s, Gimbles, Lidar, Battery Chargers, Cases, etc...)</li>
+              <li>(Optional) Automatically flag flights where user operated a drone with overdue inspection</li>
+              <li>(Optional) Automatically move a drone into maintenance (non operational) if overdue for inspection</li>
+            	<li>(Optional) Automatically flag batteries after X flights (user-defined)</li>
+              <li>(Optional) Flag user when components or drone hull is overdue, 10 percent or 20 percent before drone/parts become overdue for inspection/maintenance follow-up.</li>
+              <li>And more than 20 other notifications...</li>
             </div>
 
             <div class="module-text" style="font-size: 16px; font-weight: 200; font-family: Roboto, sans-serif; color: #222;">
               <br><b>All Servers</b>
-              <ul>
-                <li>• Create inspection schedules based on flights, hours or days as the trigger (2 of the 3 on one schedule)</li>
-                <li>• Add serial numbers to individual components</li>
-                <li>• Create unique component list for each inspection</li>
-                <li>• Individual inspection and replacement schedules</li>
-                <li>• Assign maintenance technician</li>
-                <li>• Maintenance follow up independent of inspection schedule. Example to follow up on screws being tight after X flights</li>
-              </ul>
+              <li>Create inspection schedules based on flights, hours or days as the trigger (2 of the 3 on one schedule)</li>
+              <li>Add serial numbers to individual components</li>
+            	<li>Create unique component list for each inspection</li>
+            	<li>Individual inspection and replacement schedules</li>
+              <li>Assign maintenance technician</li>
+              <li>Maintenance follow up independent of inspection schedule. Example to follow up on screws being tight after X flights</li>
             </div>
 
           </div>
@@ -232,7 +224,7 @@
             <br>
             <b>Organization:</b> Organization ID, Project, Customer, Location.
 
-            <br /><br />
+            <br><br>
             For flight log importing we support telemetry from all the major suppliers DJI, Pixhawk, Auterion including their ground control applications such as all the major DJI ground stations (DJI Go, DJI Go 4, DJI Pilot, etc..),DroneHarmony, Dronelink, UGCS, Maps Made Easy, Autel, Parrot, SenseFly, Wingtra, Ardupilot (Mission Planner), Q Ground Control and many more.
             <div class="feature">
               <div class="ui-buttons" style="justify-content: center;">
@@ -270,47 +262,76 @@
         <h2 class="main-features__heading" style="font-size: 36px; font-weight: bold;">Main Features</h2>
       </div>
 
-      <div class="feautures-columns">
-        <div class="icon-boxes__content">
-          <h4 class="icon-boxes__content-header">Log your flights with detailed information</h4>
-          <p class="icon-boxes__content-text">Import flight logs to auto fill flight data, view GPS trace and play back in 3D. We support log files from all major manufacturers: DJI, Parrot, Autel, Wingcopter, FlyAbility, Wingtra, SenseFly, Yuneec... More than 80 log types can be imported.</p>
+       <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Log your flights with detailed information</h4>
+            <p class="icon-boxes__content-text">Import flight logs to auto fill flight data, view GPS trace and play back in 3D. We support log files from all major manufacturers: DJI, Parrot, Autel, Wingcopter, FlyAbility, Wingtra, SenseFly, Yuneec...<br />More than 80 log types can be imported.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="feautures-columns">
-        <div class="icon-boxes__content">
-          <h4 class="icon-boxes__content-header">Generate custom and legal reports</h4>
-          <p class="icon-boxes__content-text">PDF reports branded with your organization logo and information. Generate compliance (FAA, CAA, CASA, CAD, EASA, DGAC, TBST, ...) reports in seconds. Regulatory agencies require you to produce records on demand.</p>
+        <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Generate custom and legal reports</h4>
+            <p class="icon-boxes__content-text">PDF reports branded with your organization logo and information. Generate compliance (FAA, CAA, CASA, CAD, EASA, DGAC, TBST, ...) reports in seconds. Regulatory agencies require you to produce records on demand.</p>
+          </div>
         </div>
-      </div>
 
-      <div class="feautures-columns">
-        <div class="icon-boxes__content">
-          <h4 class="icon-boxes__content-header">Store all organization & flight documents</h4>
-          <p class="icon-boxes__content-text">Manage your operations documents: Pre-flight forms, Checklists, Risk assessment...etc. Create custom checklist and risk assessment forms.</p>
+        <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Store all organization &amp; flight documents</h4>
+            <p class="icon-boxes__content-text">Manage your operations documents: Pre-flight forms, Checklists, Risk assessment...etc. Create custom checklist and risk assessment forms.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="feautures-columns">
-        <div class="icon-boxes__content">
-          <h4 class="icon-boxes__content-header">Manage your drone inspections and maintenance of your inventory</h4>
-          <p class="icon-boxes__content-text">Get notified when next maintenance or inspection is due. Create and maintain inspection plans for your drones.</p>
+        <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Manage your drone inspections and maintenance of your inventory</h4>
+            <p class="icon-boxes__content-text">Get notified when next maintenance or inspection is due. Create and maintain inspection plans for your drones.</p>
+          </div>
         </div>
-      </div>
 
-      <div class="feautures-columns">
-        <div class="icon-boxes__content">
-          <h4 class="icon-boxes__content-header">Plan Missions</h4>
-          <p class="icon-boxes__content-text">Plan missions and check airspace. Send missions for approval and attach documentation for complete overview. Prepare mission documents (risk assessment, checklist...etc).</p>
+        <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Plan Missions</h4>
+            <p class="icon-boxes__content-text">Plan missions and check airspace. Send missions for approval and attach documentation for complete overview. Prepare mission documents (risk assessment, checklist...etc).
+            </p>
+          </div>
         </div>
-      </div>
-      
-      <div class="feautures-columns">
-        <div class="icon-boxes__content">
-          <h4 class="icon-boxes__content-header">Manage your organization and pilots</h4>
-          <p class="icon-boxes__content-text">Manage and monitor pilot currency. Store and track documents (pilot, organization). Share information within the organization. Advanced personnel profiling with skills and capabilities tracking.</p>
+				
+        <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Manage your organization and pilots</h4>
+            <p class="icon-boxes__content-text">Manage and monitor pilot currency. Store and track documents (pilot, organization). Share information within the organization.
+              <br>Advanced personnel profiling with skills and capabilities tracking (Regulations, Operations, Business cases and tools). Pre-defined skills and possibility to add custom ones.
+            </p>
+          </div>
         </div>
-      </div>
+
+        <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Manage your equipment</h4>
+            <p class="icon-boxes__content-text">Keep track of equipment flying time. Manage their maintenance.
+            </p>
+          </div>
+        </div>
+
+        <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Manage battery cycles</h4>
+            <p class="icon-boxes__content-text">Add your battery charges and check battery performance over usage. Control battery health over the time to fly
+              with safe batteries.
+            </p>
+          </div>
+        </div>
+
+        <div class="feautures-columns">
+          <div class="icon-boxes__content">
+            <h4 class="icon-boxes__content-header">Report your flight incidents</h4>
+            <p class="icon-boxes__content-text">Keep track of pilots and drone / equipment involved. Report incident to your compliance service.</p>
+          </div>
+        </div>
 
     </div>
   </div>
